@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trade Magnate Limited - Enterprise ICT Solutions, Data Center Cabling, Disaster Recovery, and CCTV integrations. Premium managed services provider.">
+    <meta name="keywords" content="Enterprise ICT, Managed Services, Data Center, Networking, CCTV, Disaster Recovery">
+    <meta name="author" content="Trade Magnate Limited">
+    <meta name="theme-color" content="#d11f26">
+    <meta property="og:title" content="Enterprise IT Architecture | Trade Magnate Limited">
+    <meta property="og:description" content="Delivering robust network infrastructures and advanced security solutions.">
+    <meta property="og:type" content="website">
+    <title>Enterprise IT Architecture | Trade Magnate Limited</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- FontAwesome for standard UI icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .tech-stack-banner {
+            background-color: #f1f1f1;
+            padding: 2rem 0;
+            border-top: 1px solid var(--glass-border);
+            border-bottom: 1px solid var(--glass-border);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .tech-stack-ripple .water-ripple {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .tech-stack-ripple .water-ripple span {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(209, 31, 38, 0.15);
+            width: 20px;
+            height: 20px;
+            transform: translate(-50%, -50%) scale(0);
+            animation: ripple 1.2s ease-out forwards;
+        }
+
+        .tech-stack-logos {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            opacity: 0.7;
+            animation: marquee 30s linear infinite;
+            white-space: nowrap;
+            position: relative;
+            z-index: 2;
+        }
+
+        .tech-stack-logos:hover {
+            animation-play-state: paused;
+        }
+
+        .tech-stack-logos i {
+            font-size: 2.5rem;
+            transition: var(--transition);
+            flex-shrink: 0;
+        }
+
+        .tech-stack-logos i:hover {
+            opacity: 1;
+            color: var(--primary-color);
+            transform: scale(1.15);
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .tech-stack-logos-wrapper {
+            display: flex;
+            width: 200%;
+        }
+    </style>
+
+        .hero-desc {
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Shared Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo-container">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 5 L70 30 L50 60 L30 30 Z" fill="#d11f26"/>
+                    <path d="M20 30 L30 40 L20 55 L10 40 Z" fill="#d11f26" opacity="0.8"/>
+                    <path d="M80 15 L90 25 L80 40 L70 25 Z" fill="#d11f26" opacity="0.8"/>
+                    <path d="M50 95 L70 70 L50 40 L30 70 Z" fill="#2a2a2a" class="dark-diamond"/>
+                </svg>
+                <div class="logo-text">
+                    TRADE MAGNATE
+                    <span class="sub">L I M I T E D</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="career.html">Career</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div style="display:flex; gap:15px; align-items:center;">
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page Coastal Watermark -->
+        <div class="coastal-watermark"></div>
+
+        <!-- Hero Section -->
+        <section class="hero fade-up digital-hero">
+            <div class="overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-subtitle">Digital Transformation for Enterprises</span>
+                <h1 class="hero-title">Next-gen <span>Cloud & Security</span> Architecture</h1>
+                <p class="hero-desc">Full-stack deployment from edge-to-cloud with AI monitoring, zero-trust access, and real-time threat intelligence for modern digital infrastructures.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">Explore Services <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact.html" class="btn btn-outline">Get a Web Audit</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Banner -->
+        <div class="tech-stack-banner fade-up tech-stack-ripple">
+            <div class="water-ripple"></div>
+            <div class="container">
+                <p style="font-size: 0.85rem; text-transform:uppercase; letter-spacing:2px; margin-bottom:1rem; opacity:0.7; position:relative; z-index:2;">Trusted deployment partners for leading infrastructure providers</p>
+                <div class="tech-stack-logos">
+                    <i class="fa-brands fa-microsoft" title="Microsoft Azure & Server" aria-label="Microsoft"></i>
+                    <i class="fa-brands fa-aws" title="Amazon Web Services" aria-label="AWS"></i>
+                    <i class="fa-brands fa-linux" title="Linux Enterprise" aria-label="Linux"></i>
+                    <i class="fa-solid fa-network-wired" title="Cisco / Networking" aria-label="Networking"></i>
+                    <i class="fa-solid fa-shield-halved" title="Fortinet / Cybersecurity" aria-label="Cybersecurity"></i>
+                    <i class="fa-solid fa-server" title="Dell / Enterprise Servers" aria-label="Enterprise Servers"></i>
+                    <!-- Duplicate for seamless loop -->
+                    <i class="fa-brands fa-microsoft" title="Microsoft Azure & Server" aria-label="Microsoft"></i>
+                    <i class="fa-brands fa-aws" title="Amazon Web Services" aria-label="AWS"></i>
+                    <i class="fa-brands fa-linux" title="Linux Enterprise" aria-label="Linux"></i>
+                    <i class="fa-solid fa-network-wired" title="Cisco / Networking" aria-label="Networking"></i>
+                    <i class="fa-solid fa-shield-halved" title="Fortinet / Cybersecurity" aria-label="Cybersecurity"></i>
+                    <i class="fa-solid fa-server" title="Dell / Enterprise Servers" aria-label="Enterprise Servers"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Overview -->
+        <section class="section services-overview">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <div class="section-subtitle">Core IT Operations</div>
+                    <h2>Enterprise Integration Expertise</h2>
+                    <p style="opacity:0.7; max-width:700px; margin: 1rem auto;">Acting as your dedicated Managed Services Provider (MSP), we oversee every physical and logical layer of your modern tech stack.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- CCTV Card -->
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fa-solid fa-video" aria-hidden="true"></i></div>
+                        <h3>Perimeter & Data Security</h3>
+                        <p>Deploying end-to-end NVR storage configurations, IP surveillance networks, and advanced biometric zero-trust access controls across physical environments.</p>
+                        <a href="services.html" class="learn-more">View specifications <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- Networking Card -->
+                    <div class="service-card fade-up" style="animation-delay: 100ms;">
+                        <div class="service-icon"><i class="fa-solid fa-network-wired" aria-hidden="true"></i></div>
+                        <h3>Structural Cabling & SAN</h3>
+                        <p>Providing pristine Fluke-certified CAT6/CAT7 and Fiber optic data center deployments to ensure maximum LAN/WAN throughput and zero latency.</p>
+                        <a href="services.html" class="learn-more">View specifications <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- Communication Card -->
+                    <div class="service-card fade-up" style="animation-delay: 200ms;">
+                        <div class="service-icon"><i class="fa-solid fa-tower-cell" aria-hidden="true"></i></div>
+                        <h3>Long-Range Communication</h3>
+                        <p>Galvanized mast construction, high-frequency microwave link installations, and intensive mechanical SLA maintenance for telecommunication grids.</p>
+                        <a href="services.html" class="learn-more">View specifications <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- IP Phone Card -->
+                    <div class="service-card fade-up" style="animation-delay: 300ms;">
+                        <div class="service-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                        <h3>VoIP & IP Telephony</h3>
+                        <p>Full implementation of SIP trunks, Asterisk PBX solutions, and scalable Unified Communication hardware to reduce enterprise contact center costs.</p>
+                        <a href="services.html" class="learn-more">View specifications <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Snippet Section -->
+        <section class="section">
+            <div class="container about-snippet fade-up">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200" alt="Trade Magnate Office Server Room">
+                </div>
+                <div class="about-content">
+                    <div class="section-subtitle">Systems Integration History</div>
+                    <h2>A dynamic, unyielding approach to scaling networks</h2>
+                    <p>Operating since 1997, Trade Magnate Limited has fundamentally shaped regional ICT architecture. Our legacy is built on deploying cutting-edge hardware matrices and establishing untouchable service and repair backup channels for elite corporate clientele.</p>
+                    <p>We combine highly certified L3-Engineers with tier-1 OEM relationships to guarantee your IT workflow runs at 99.9% physical uptime, consistently outpacing modern business demands.</p>
+                    <a href="about.html" class="btn btn-outline" style="margin-top:1rem;">Read our engineering history</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="container fade-up">
+            <div class="cta-section cta-ripple">
+                <div class="water-ripple"></div>
+                <h2>Require an immediate network audit?</h2>
+                <p style="opacity:0.9; margin-bottom:2rem;">Contact our specialized IT deployment team to analyze your infrastructure vulnerabilities, plan cloud migrations, or secure your physical perimeter.</p>
+                <a href="contact.html" class="btn">Initiate secure contact <i class="fa-solid fa-lock" style="margin-left: 5px;"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Shared Footer -->
+    <footer aria-label="Site Footer">
+        <div class="container footer-grid fade-up">
+            <div class="footer-col">
+                <h3 style="color:#d11f26; margin-bottom:1rem; font-weight:800; font-size:1.5rem; letter-spacing:1px; text-transform:uppercase;">
+                    TRADE MAGNATE <span style="font-weight:400; font-size:1rem; letter-spacing:4px; display:block; padding-left:2px;">LIMITED</span>
+                </h3>
+                <p style="color:#aaa; max-width:300px; margin-top:1rem; opacity:0.8;">
+                    ...everywhere we engage in ICT, we create value and make a difference through undeniable reliability.
+                </p>
+                <div style="margin-top:2rem; display:flex; gap:15px; font-size:1.5rem;">
+                    <a href="https://linkedin.com" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin" style="color:#aaa; transition: all 0.3s ease;"></i></a>
+                    <a href="https://twitter.com" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" style="color:#aaa; transition: all 0.3s ease;"></i></a>
+                    <a href="https://facebook.com" aria-label="Facebook" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-square-facebook" style="color:#aaa; transition: all 0.3s ease;"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Architecture Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">System Overview</a></li>
+                    <li><a href="about.html">Firm Legacy</a></li>
+                    <li><a href="services.html">Deployed Solutions</a></li>
+                    <li><a href="career.html">Engineering Careers</a></li>
+                    <li><a href="contact.html">NOC Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Headquarters</h4>
+                <address style="font-style: normal;">
+                    <p style="color:#aaa; margin-bottom:1rem; opacity:0.8;">
+                        Azir House<br>
+                        Umoja Road, Nyali<br>
+                        Mombasa, Kenya
+                    </p>
+                    <p style="color:#aaa; margin-top:1rem;">
+                        <a href="tel:0706683663" style="color: #d11f26; text-decoration: none;"><i class="fa-solid fa-phone" style="margin-right:0.5rem;"></i>0706683663</a><br>
+                        <a href="tel:0412022457" style="color: #d11f26; text-decoration: none;"><i class="fa-solid fa-phone" style="margin-right:0.5rem;"></i>0412022457</a><br>
+                        <a href="mailto:installations@trade-magnate.com" style="color: #d11f26; text-decoration: none;"><i class="fa-solid fa-envelope" style="margin-right:0.5rem;"></i>installations@trade-magnate.com</a>
+                    </p>
+                </address>
+            </div>
+        </div>
+        <div class="container footer-bottom fade-up">
+            &copy; 2026 Trade Magnate Limited. All Rights Reserved. Fully Encrypted Endpoint.
+        </div>
+    </footer>
+
+    <!-- WhatsApp Interactive Button -->
+    <a href="https://wa.me/254706683663?text=Hello%20Trade%20Magnate%20Limited%2C%20I%20need%20assistance%20with%20enterprise%20IT%20solutions." 
+       class="whatsapp-btn" 
+       title="Chat with us on WhatsApp" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="WhatsApp Chat">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
